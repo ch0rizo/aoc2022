@@ -1,4 +1,4 @@
-data = File.foreach('data.txt', "\n\n").to_a
+data = File.foreach('day-1/data.txt', "\n\n").to_a
 
 summed_groups = data.map do |group|
   group.split("\n").map(&:to_i).sum
