@@ -1,14 +1,14 @@
 array_of_data = File.foreach('day-2/data.txt', "\n").to_a
 
-# elf
-A = "rock"
-B = "paper"
-C = "scissors"
+# # elf
+# A = "rock"
+# B = "paper"
+# C = "scissors"
 
-# situation
-Y = "draw"
-X = "lose"
-Z = "win"
+# # situation
+# Y = "draw"
+# X = "lose"
+# Z = "win"
 
 $score = 0
 
